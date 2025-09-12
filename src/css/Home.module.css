@@ -1,0 +1,349 @@
+audio {
+  display: none;
+}
+.main {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("/images/pic1.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1000px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.main div {
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 5.5rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.main p {
+  font-size: 2.3rem;
+  color: #fff;
+  letter-spacing: 1.2px;
+  margin-top: 5px;
+}
+
+.main a {
+  font-size: 2.1rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: #2b4d2e;
+  padding: 17px 10px;
+  display: inline-block;
+  border-radius: 8px;
+  width: 210px;
+  margin-top: 50px;
+  transition: all 0.3s ease-in;
+}
+
+.main a:hover {
+  background-color: #162017;
+}
+/* End of main */
+/* End of main */
+/* End of main */
+.about {
+  background-color: black;
+}
+
+.about_container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.about_container div {
+  padding: 0 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.about_container div p:nth-of-type(1) {
+  font-size: 1.8rem;
+  margin-top: 25px;
+}
+
+.about_container div p:nth-of-type(2) {
+  font-size: 1.8rem;
+  margin-top: 25px;
+}
+
+.about_container div h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: rgb(247, 105, 49);
+}
+
+.about_container img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+/* End of about */
+/* End of about */
+/* End of about */
+.skills_container {
+  width: 90%;
+  margin: 90px auto;
+}
+
+.skills_top {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.skills_top p {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.skills_top h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.skills_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills_flex > div {
+  width: 25%;
+  padding: 15px;
+}
+
+.skills_flex > div div {
+  width: 100%;
+  background-color: rgb(253, 253, 253);
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+}
+
+.skills_flex > div div h2 {
+  font-size: 5rem;
+  /* opacity: 0.15; */
+}
+
+.skills_flex > div div h3 {
+  font-size: 2.2rem;
+  font-family: Jost, Arial, Helvetica, sans-serif;
+  margin: 10px 0 30px;
+}
+
+.skills_flex > div div h4 {
+  font-size: 2.1rem;
+  font-family: Jost, Arial, Helvetica, sans-serif;
+}
+
+.skills_flex > div:nth-of-type(1) div h2 {
+  color: #000000;
+}
+.skills_flex > div:nth-of-type(2) div h2 {
+  color: rgb(110, 72, 107);
+}
+.skills_flex > div:nth-of-type(3) div h2 {
+  color: rgb(245, 234, 139);
+}
+.skills_flex > div:nth-of-type(4) div h2 {
+  color: rgb(86, 182, 206);
+}
+.skills_flex > div:nth-of-type(5) div h2 {
+  color: rgb(247, 105, 49);
+}
+.skills_flex > div:nth-of-type(6) div h2 {
+  color: rgb(123, 126, 128);
+}
+.skills_flex > div:nth-of-type(7) div h2 {
+  color: rgb(0, 0, 0);
+}
+.skills_flex > div:nth-of-type(8) div h2 {
+  color: rgb(180, 128, 93);
+}
+.skills_flex > div:nth-of-type(9) div h2 {
+  color: rgb(0, 0, 0);
+}
+.skills_flex > div:nth-of-type(10) div h2 {
+  color: rgb(245, 234, 139);
+}
+/* End of skills */
+/* End of skills */
+/* End of skills */
+.portfolio_container {
+  width: 90%;
+  margin: 90px auto;
+}
+
+.portfolio_top {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.portfolio_top p {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.portfolio_top h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.portfolio_flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.portfolio_flex > div {
+  width: 32%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio_flex > div div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.815);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  left: -600px;
+  transition: all 0.3s ease-in;
+}
+
+.portfolio_flex > div:hover .show {
+  left: 0px;
+}
+
+.portfolio_flex > div div h3 {
+  color: #fff;
+  font-weight: 200;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.portfolio_flex > div div a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 8px;
+  width: 100px;
+  border-radius: 8px;
+  text-align: center;
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+.portfolio_flex > div div a:hover {
+  opacity: 0.5;
+}
+
+.portfolio_flex > div:nth-of-type(1) a {
+  background-color: #2b4d2e;
+}
+.portfolio_flex > div:nth-of-type(2) a {
+  background-color: rgb(247, 105, 49);
+}
+.portfolio_flex > div:nth-of-type(3) a {
+  background-color: rgb(95, 71, 54);
+}
+
+.portfolio_flex > div:nth-of-type(1) {
+  background: url("/images/pic2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.portfolio_flex > div:nth-of-type(2) {
+  background: url("/images/pic3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.portfolio_flex > div:nth-of-type(3) {
+  background: url("/images/pic4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .skills_flex > div {
+    width: 33.3%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .skills_flex > div {
+    width: 50%;
+  }
+
+  .portfolio_flex > div {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .skills_flex > div {
+    width: 100%;
+  }
+
+  .portfolio_flex > div {
+    width: 100%;
+  }
+
+  .main h1 {
+    font-size: 4.6rem;
+  }
+
+  .main p {
+    font-size: 2.3rem;
+  }
+
+  .main a {
+    font-size: 2rem;
+    padding: 15px 10px;
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .main h1 {
+    font-size: 4.2rem;
+  }
+
+  .main p {
+    font-size: 2.2rem;
+  }
+
+  .main a {
+    font-size: 2rem;
+    padding: 13px 10px;
+    width: 160px;
+  }
+}
