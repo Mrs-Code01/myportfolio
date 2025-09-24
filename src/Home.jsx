@@ -30,7 +30,7 @@ const Home = () => {
             <p>Who I am?</p>
             <h2>About Me</h2>
             <p>
-              A seasoned frontend developer with 6+ years of experience, using
+              A seasoned frontend developer with 3+ years of experience, using
               modern javascript frameworks and a passion for frontend
               architecture and experience design; ready to build
               high-performance, accessible and responsive user interfaces for
@@ -97,7 +97,7 @@ const Home = () => {
               <div>
                 <h2>04</h2>
                 <h3>React</h3>
-                <CountUp end={90} />
+                <CountUp end={80} />
               </div>
             </motion.div>
             {/* Skill 4 */}
@@ -109,6 +109,17 @@ const Home = () => {
               <div>
                 <h2>05</h2>
                 <h3>Tailwind CSS</h3>
+                <CountUp end={75} />
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: -200 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.3 }}
+            >
+              <div>
+                <h2>06</h2>
+                <h3>SASS</h3>
                 <CountUp end={95} />
               </div>
             </motion.div>
@@ -119,7 +130,7 @@ const Home = () => {
               transition={{ duration: 0.3 }}
             >
               <div>
-                <h2>06</h2>
+                <h2>07</h2>
                 <h3>NextJS</h3>
                 <CountUp end={75} />
               </div>
@@ -131,7 +142,7 @@ const Home = () => {
               transition={{ duration: 0.3 }}
             >
               <div>
-                <h2>07</h2>
+                <h2>08</h2>
                 <h3>Responsive Design</h3>
                 <CountUp end={100} />
               </div>
@@ -143,7 +154,7 @@ const Home = () => {
               transition={{ duration: 0.3 }}
             >
               <div>
-                <h2>08</h2>
+                <h2>09</h2>
                 <h3>Git/Github</h3>
                 <CountUp end={100} />
               </div>
@@ -155,7 +166,7 @@ const Home = () => {
               transition={{ duration: 0.3 }}
             >
               <div>
-                <h2>09</h2>
+                <h2>10</h2>
                 <h3>Vercel</h3>
                 <CountUp end={100} />
               </div>
@@ -167,7 +178,7 @@ const Home = () => {
               transition={{ duration: 0.3 }}
             >
               <div>
-                <h2>10</h2>
+                <h2>11</h2>
                 <h3>Framer Motion</h3>
                 <CountUp end={80} />
               </div>
@@ -189,8 +200,8 @@ const Home = () => {
           <div className={styles.portfolio_flex}>
             <div>
               <div className={styles.show}>
-                <h3>Fashion Shop</h3>
-                <a href="https://alabi-fashion.vercel.app">View</a>
+                <h3>CV Template</h3>
+                <a href="https://magik-pi.vercel.app/">View</a>
               </div>
             </div>
             <div>
