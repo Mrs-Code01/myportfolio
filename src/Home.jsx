@@ -132,7 +132,7 @@ const Home = () => {
               <div>
                 <h2>07</h2>
                 <h3>NextJS</h3>
-                <CountUp end={75} />
+                <CountUp end={55} />
               </div>
             </motion.div>
             {/* Skill 6 */}
@@ -201,7 +201,7 @@ const Home = () => {
             <div>
               <div className={styles.show}>
                 <h3>CV Template</h3>
-                <a href="https://magik-pi.vercel.app/">View</a>
+                <a href="https://www.girlsincryptohub.com">View</a>
               </div>
             </div>
             <div>
