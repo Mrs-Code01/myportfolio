@@ -200,7 +200,7 @@ const Home = () => {
           <div className={styles.portfolio_flex}>
             <div>
               <div className={styles.show}>
-                <h3>CV Template</h3>
+                <h3>Crypto Hub</h3>
                 <a href="https://www.girlsincryptohub.com">View</a>
               </div>
             </div>
