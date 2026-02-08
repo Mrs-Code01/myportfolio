@@ -2,11 +2,8 @@ audio {
   display: none;
 }
 .main {
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.95),
-      rgba(0, 0, 0, 0.8)
-    ),
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.8)),
     url("/images/pic1.jpg");
   width: 100%;
   background-size: cover;
@@ -41,7 +38,7 @@ audio {
   font-size: 2.1rem;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: #2b4d2e;
+  background-color: #0b65af;
   padding: 17px 10px;
   display: inline-block;
   border-radius: 8px;
@@ -51,7 +48,7 @@ audio {
 }
 
 .main a:hover {
-  background-color: #162017;
+  background-color: #071941;
 }
 /* End of main */
 /* End of main */
@@ -154,36 +151,6 @@ audio {
   font-family: Jost, Arial, Helvetica, sans-serif;
 }
 
-.skills_flex > div:nth-of-type(1) div h2 {
-  color: #000000;
-}
-.skills_flex > div:nth-of-type(2) div h2 {
-  color: rgb(110, 72, 107);
-}
-.skills_flex > div:nth-of-type(3) div h2 {
-  color: rgb(245, 234, 139);
-}
-.skills_flex > div:nth-of-type(4) div h2 {
-  color: rgb(86, 182, 206);
-}
-.skills_flex > div:nth-of-type(5) div h2 {
-  color: rgb(247, 105, 49);
-}
-.skills_flex > div:nth-of-type(6) div h2 {
-  color: rgb(123, 126, 128);
-}
-.skills_flex > div:nth-of-type(7) div h2 {
-  color: rgb(0, 0, 0);
-}
-.skills_flex > div:nth-of-type(8) div h2 {
-  color: rgb(180, 128, 93);
-}
-.skills_flex > div:nth-of-type(9) div h2 {
-  color: rgb(0, 0, 0);
-}
-.skills_flex > div:nth-of-type(10) div h2 {
-  color: rgb(245, 234, 139);
-}
 /* End of skills */
 /* End of skills */
 /* End of skills */
@@ -219,6 +186,7 @@ audio {
   height: 350px;
   position: relative;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 .portfolio_flex > div div {
@@ -232,6 +200,8 @@ audio {
   align-items: center;
   left: -600px;
   transition: all 0.3s ease-in;
+  padding: 20px;
+  text-align: center;
 }
 
 .portfolio_flex > div:hover .show {
@@ -262,13 +232,13 @@ audio {
 }
 
 .portfolio_flex > div:nth-of-type(1) a {
-  background-color: #2b4d2e;
+  background-color: #0b65af;
 }
 .portfolio_flex > div:nth-of-type(2) a {
-  background-color: rgb(247, 105, 49);
+  background-color: rgb(26, 145, 95);
 }
 .portfolio_flex > div:nth-of-type(3) a {
-  background-color: rgb(95, 71, 54);
+  background-color: rgb(255, 48, 100);
 }
 
 .portfolio_flex > div:nth-of-type(1) {

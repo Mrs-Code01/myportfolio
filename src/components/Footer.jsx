@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <footer className={styles.footer} id="contact">
         <div className={styles.footer_container}>
-          <a href="https://wa.me/message/32WFXXA4SRYCA1">
+          <a href="https://wa.me/2347019108827">
             <img
               src="/images/whatsapp.png"
               alt=""

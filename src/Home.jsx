@@ -109,7 +109,7 @@ const Home = () => {
               <div>
                 <h2>05</h2>
                 <h3>Tailwind CSS</h3>
-                <CountUp end={75} />
+                <CountUp end={100} />
               </div>
             </motion.div>
             <motion.div
@@ -119,7 +119,7 @@ const Home = () => {
             >
               <div>
                 <h2>06</h2>
-                <h3>SASS</h3>
+                <h3>REST APIs</h3>
                 <CountUp end={95} />
               </div>
             </motion.div>
@@ -131,7 +131,7 @@ const Home = () => {
             >
               <div>
                 <h2>07</h2>
-                <h3>NextJS</h3>
+                <h3>Next.js</h3>
                 <CountUp end={55} />
               </div>
             </motion.div>
@@ -200,20 +200,20 @@ const Home = () => {
           <div className={styles.portfolio_flex}>
             <div>
               <div className={styles.show}>
+                <h3>NGO Web App</h3>
+                <a href="https://www.ahfnig.org/">View</a>
+              </div>
+            </div>
+            <div>
+              <div className={styles.show}>
+                <h3>Waste Upcycling Platform</h3>
+                <a href="https://www.plastibuildafrica.com/">View</a>
+              </div>
+            </div>
+            <div>
+              <div className={styles.show}>
                 <h3>Crypto Hub</h3>
                 <a href="https://www.girlsincryptohub.com">View</a>
-              </div>
-            </div>
-            <div>
-              <div className={styles.show}>
-                <h3>Web3 Launch</h3>
-                <a href="https://www.mywifethinksimaloser.xyz">View</a>
-              </div>
-            </div>
-            <div>
-              <div className={styles.show}>
-                <h3>NGO Website</h3>
-                <a href="https://www.vivienotipov.com">View</a>
               </div>
             </div>
           </div>
