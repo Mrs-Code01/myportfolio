@@ -132,7 +132,7 @@ const Home = () => {
               <div>
                 <h2>07</h2>
                 <h3>Next.js</h3>
-                <CountUp end={55} />
+                <CountUp end={100} />
               </div>
             </motion.div>
             {/* Skill 6 */}
