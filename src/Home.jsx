@@ -210,12 +210,6 @@ const Home = () => {
                 <a href="https://www.plastibuildafrica.com/">View</a>
               </div>
             </div>
-            <div>
-              <div className={styles.show}>
-                <h3>Crypto Hub</h3>
-                <a href="https://www.girlsincryptohub.com">View</a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
