@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Nav";
 import Footer from "./components/Footer";
 import Home from "./Home";
+import MercyWidget from "./MercyWidget";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
       </Routes>
       <Footer />
+      <MercyWidget />
     </Router>
   );
 };
