@@ -16,7 +16,7 @@ const Home = () => {
         >
           <h1>HI!</h1>
           <h1>I am Idubor Mercy</h1>
-          <p>Frontend Developer</p>
+          <p>FullStack AI Assisted Developer</p>
           <a href="#portfolio">Visit my works</a>
         </motion.div>
       </main>
@@ -26,18 +26,11 @@ const Home = () => {
       <section className={styles.about} id="about">
         <div className={styles.about_container}>
           <div>
-            <img src="/images/pic5.jpg" alt="" />
+            <img src="/images/claude_code_expert.png" alt="" />
             <p>Who I am?</p>
             <h2>About Me</h2>
             <p>
-              A seasoned frontend developer with 3+ years of experience, using
-              modern javascript frameworks and a passion for frontend
-              architecture and experience design; ready to build
-              high-performance, accessible and responsive user interfaces for
-              local, national and international clients.
-              <br />I translate UI/UX designs into production-ready code and
-              collaborate across teams; pushing the boundaries of frontend
-              innovation.
+             A FullStack AI-Assisted Developer with 4+ years of experience building modern web applications using JavaScript frameworks and AI-assisted development workflows. <br/><br/>I use tools like Claude Code to speed up development, improve consistency, and reduce repetitive debugging during real projects. Experienced in building responsive and accessible interfaces, translating UI/UX designs into production-ready applications, and working across both frontend and backend systems to deliver reliable products for local and international clients.<br/><br/>If you're looking to improve your development workflow, build faster with AI tools, or bring a web application idea to life, feel free to connect or reach out.
             </p>
           </div>
         </div>
@@ -184,6 +177,18 @@ const Home = () => {
               </div>
             </motion.div>
             {/* Skill 10 */}
+             <motion.div
+              initial={{ opacity: 0, x: -200 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.3 }}
+            >
+              <div>
+                <h2>12</h2>
+                <h3>Claude Code</h3>
+                <CountUp end={100} />
+              </div>
+            </motion.div>
+            {/* Skill 12 */}
           </div>
         </div>
       </section>
@@ -208,6 +213,12 @@ const Home = () => {
               <div className={styles.show}>
                 <h3>Waste Upcycling Platform</h3>
                 <a href="https://www.plastibuildafrica.com/">View</a>
+              </div>
+            </div>
+            <div>
+              <div className={styles.show}>
+                <h3>School Management System</h3>
+                <a href="https://www.stmarychildrenschool.com/">View</a>
               </div>
             </div>
           </div>
